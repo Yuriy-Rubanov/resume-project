@@ -1,0 +1,261 @@
+body {
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+  background: ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main_content {
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
+}
+
+.sidebar_content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.contacts_title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.contacts_type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.contacts_link {
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.contacts_item {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.contacts_container {
+  margin-bottom: 40px;
+}
+
+.skills_container {
+  margin-bottom: 40px;
+}
+
+.skills_title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.skills_list {
+  padding-left: 16px;
+}
+
+.skills_list_item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Main content */
+
+.my_profession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.my_name {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.general_info {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my_info {
+  margin-bottom: 40px;
+}
+
+/* My projects */
+
+.my_projects_title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.my_projects_item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.my_projects_list {
+  padding-left: 16px;
+}
+
+.my_projects_item_link {
+  color: #005fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.my_projects_item_tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my_projects {
+  margin-bottom: 40px;
+}
+
+/* Work Experience */
+.experience_title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+/* Companies */
+.company {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.compamy_period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.company_name {
+  color: #6d9bf5;
+}
+
+.company_duties {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 16px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.experience_container {
+  margin-bottom: 12 px;
+}
+.work_experience {
+  margin-bottom: 40px;
+}
+
+/* Education */
+
+.education_title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.education_place {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.education_prof {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.education_period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.education_period_slash {
+  color: #000;
+}
